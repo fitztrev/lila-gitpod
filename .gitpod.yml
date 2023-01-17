@@ -113,4 +113,5 @@ ports:
 
 vscode:
   extensions:
+    - ms-azuretools.vscode-docker
     - scala-lang.scala
