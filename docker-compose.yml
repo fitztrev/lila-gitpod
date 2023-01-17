@@ -3,6 +3,7 @@ version: '3.8'
 services:
   lichess:
     image: ghcr.io/lichess-org/lila-gitpod:main
+    tty: true
   elasticsearch:
     image: elasticsearch:7.8.0
     container_name: es
